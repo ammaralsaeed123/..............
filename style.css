@@ -1,42 +1,52 @@
-#page{
+#page {
     background-color: black;
 }
 
-#num{
-    margin-right:-211px;
-    padding: 12px;
+#num {
+   /* padding: 12px;*/
+    color: white;
+    font-size: 28px;
+    background-color: black;
+    border: none;
+    font-size: 38px;
+    margin-left: 514px;
+    text-align: left;
 }
-#cal{
+
+#cal {
     border-style: none;
     text-align: center;
     margin-top: 152px;
 }
 
-.feature{
+.feature {
     border: none;
     border-radius: 50%;
-    width: 60PX;
-    height:70px ;
+    width: 70px;
+    height: 70px;
     margin: 3px;
-    font-size: 30px; 
+    font-size: 30px;
 }
-.color1{
-  /*  background-color: #d9d9d9;
-    background-color: darkgrey;*/
-   font-size: 30px; 
+
+.color1 {
+  
+    font-size: 30px;
 }
-.colora{
-     font-size: 30px; 
-    background-color:  #ff8533;
+
+.colora {
+    font-size: 30px;
+    background-color: #FFA500;
     color: white;
 }
-.color2{
-     font-size: 30px; 
+
+.color2 {
+    font-size: 30px;
     background-color: #737373;
     color: white;
 }
-.color0{
-    width: 132px;
+
+.color0 {
+    width: 157px;
     border-radius: 15px;
 }
 }

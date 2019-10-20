@@ -6,38 +6,36 @@
 
 <body>
     <div id="cal" class="cal">
-        <div id="num" class="num">
-            0
-        </div>
+        <input id="num" class="num">0
         <div id="line1" class="line1">
-            <button class= "color1 feature" >AC</button>
-            <button class= "color1 feature" >+/-</button>
-            <button class= "color1 feature" >%</button>
-            <button class= "colora feature" >÷</button>
+            <button class= "color1 feature" value="AC" onclick="delet('')">AC</button>
+            <button class= "color1 feature"  value="-" onclick="calc('-')" >+/-</button>
+            <button class= "color1 feature"  value="%" onclick="calc('%')" >%</button>
+            <button class= "colora feature" value="/" onclick="calc('/')" >÷</button>
         </div>
         <div id="line2" class="line2">
             
-            <button class= "color2 feature" >7</button>
-            <button class= "color2 feature" >8</button>
-            <button class= "color2 feature" >9</button>
-            <button class= "colora feature" >×</button>
+            <button class= "color2 feature"  value="7" onclick="calc('7')" >7</button>
+            <button class= "color2 feature"   value="8" onclick="calc('8')">8</button>
+            <button class= "color2 feature"  value="9" onclick="calc('9')" >9</button>
+            <button class= "colora feature" value="x" onclick="calc('*')" >×</button>
         </div>
         <div id="line3" class="line3">
-        <button  class= "color2 feature" >4</button>
-        <button  class= "color2 feature" >5</button>
-        <button  class= "color2 feature" >6</button>
-        <button  class= "colora feature" >-</button>
+        <button  class= "color2 feature"  value="4" onclick="calc('4')">4</button>
+        <button  class= "color2 feature"  value="5"onclick="calc('5')" >5</button>
+        <button  class= "color2 feature"  value="6" onclick="calc('6')" >6</button>
+        <button  class= "colora feature"  value="-" onclick="calc('-')" >-</button>
         </div>
         <div id="line4" class="line4">
-        <button  class= "color2 feature"  >1</button>
-        <button  class= "color2 feature" >2</button>
-        <button  class= "color2 feature" >3</button>
-        <button  class= "colora feature" >+</button>
+        <button  class= "color2 feature"  value="1" onclick="calc('1')">1</button>
+        <button  class= "color2 feature"  value="2" onclick="calc('2')" >2</button>
+        <button  class= "color2 feature"  value="3" onclick="calc('3')">3</button>
+        <button  class= "colora feature"  value="+" onclick="calc('+')" >+</button>
         </div>
         <div id="line5" class="line5">
-        <button  class= "color0 feature" >0</button>
-        <button  class= "color2 feature" >.</button>
-        <button  class= "colora feature" >=</button>
+        <button  class= "color0 feature" value="0" onclick="calc('0')">0</button>
+        <button  class= "color2 feature" value="." onclick="calc('.')">.</button>
+        <button  class= "colora feature" value="=" onclick="rslt()">=</button>
         </div>
     </div>
 
